@@ -1,0 +1,102 @@
+.RatingTable {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: 10px 10px 5px #888888;
+    border: 1px solid #000000;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.RatingTable table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.RatingTable tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.RatingTable table tr:first-child td:first-child {
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.RatingTable table tr:first-child td:last-child {
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.RatingTable tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.RatingTable tr:hover td {} .RatingTable tr:nth-child(odd) {
+    background-color: #cecccc;
+}
+.RatingTable tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.RatingTable td {
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-width: 0px 1px 1px 0px;
+    text-align: left;
+    padding: 7px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+}
+.RatingTable tr:last-child td {
+    border-width: 0px 1px 0px 0px;
+}
+.RatingTable tr td:last-child {
+    border-width: 0px 0px 1px 0px;
+}
+.RatingTable tr:last-child td:last-child {
+    border-width: 0px 0px 0px 0px;
+}
+.RatingTable tr:first-child td {
+    background: -o-linear-gradient(bottom, #a5a4a4 5%, #757474 100%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5a4a4), color-stop(1, #757474));
+    background: -moz-linear-gradient( center top, #a5a4a4 5%, #757474 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#a5a4a4", endColorstr="#757474");
+    background: -o-linear-gradient(top, #a5a4a4, 757474);
+    background-color: #a5a4a4;
+    border: 0px solid #000000;
+    text-align: center;
+    border-width: 0px 0px 1px 1px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+.RatingTable tr:first-child:hover td {
+    background: -o-linear-gradient(bottom, #a5a4a4 5%, #757474 100%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5a4a4), color-stop(1, #757474));
+    background: -moz-linear-gradient( center top, #a5a4a4 5%, #757474 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#a5a4a4", endColorstr="#757474");
+    background: -o-linear-gradient(top, #a5a4a4, 757474);
+    background-color: #a5a4a4;
+}
+.RatingTable tr:first-child td:first-child {
+    border-width: 0px 0px 1px 0px;
+}
+.RatingTable tr:first-child td:last-child {
+    border-width: 0px 0px 1px 1px;
+}
