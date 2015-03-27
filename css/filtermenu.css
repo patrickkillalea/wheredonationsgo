@@ -15,25 +15,29 @@ and open the template in the editor.
     font-size: 18px;
     line-height: 1.5;
 }
+
 /* Sidebar modules for boxing content */
 
 .sidebar-module {
     padding: 15px;
     margin: 0 -15px 15px;
 }
+
 .sidebar-module-inset {
     padding: 15px;
     /*background-color: #f5f5f5;*/
-    
+
     border: 1px solid gray;
     background-color: white;
     border-radius: 10px;
 }
+
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
     margin-bottom: 0;
 }
+
 div.insidefilter {
     width: 260px;
     padding: 10px;
@@ -42,6 +46,7 @@ div.insidefilter {
     background-color: white;
     border-radius: 5px;
 }
+
 div.filterbox {
     width: 280px;
     padding: 10px;
@@ -50,11 +55,13 @@ div.filterbox {
     background-color: whitesmoke;
     border-radius: 10px;
 }
+
 .vertical {
     line-height: normal;
     display: inline-block;
     vertical-align: middle;
 }
+
 .imgClass {
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -63,12 +70,15 @@ div.filterbox {
     cursor: pointer;
     outline: 0;
 }
+
 .imgClass:hover {
     background-position: 0px -52px;
 }
+
 .imgClass:active {
     background-position: 0px -104px;
 }
+
 .button {
     border-top: 1px solid #cccccc;
     background: #696969;
@@ -91,15 +101,18 @@ div.filterbox {
     text-decoration: none;
     vertical-align: middle;
 }
+
 .button:hover {
     border-top-color: #3d3d3d;
     background: #3d3d3d;
     color: #ccc;
 }
+
 .button:active {
     border-top-color: #454545;
     background: #454545;
 }
+
 .starbutton {
     outline: none;
     cursor: pointer;
@@ -113,9 +126,11 @@ div.filterbox {
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
     background-color: white;
 }
+
 .starbutton:hover {
     text-decoration: none;
 }
+
 .starbutton:active {
     position: relative;
     top: 1px;
