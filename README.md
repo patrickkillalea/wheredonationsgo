@@ -1,7 +1,7 @@
 # wheredonationsgo
 
 Hosted on Heroku
-wheredonationsgo.patrickkillalea.com
+http://wheredonationsgo.patrickkillalea.com
 
 This site was built with help from one of my friends who works in Concern. We were concerned that the charity scandals of recent years were taking its toll on donations in Ireland and wanted to do something to counteract it.
 We decided to create a website which rates all Irish charities and compares them against each other by using fancy visualizations.
