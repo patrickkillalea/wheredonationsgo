@@ -1,0 +1,124 @@
+#maincontent {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+}
+
+h2 {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+}
+
+h3 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+}
+
+p {
+    font-family: 'Arial';
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 26.3999996185303px;
+}
+
+starformat {
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 26.3999996185303px;
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.headersection {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.charitysection {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.subheading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.alignright {
+    float: right
+}
+
+.alignleft {
+    float: left
+}
+
+.aligncenter {
+    margin: 0 auto;
+    /*width: 200px;*/
+    /*background: black;*/
+    /*padding: 0px;*/
+    /*color: white;*/
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /*Negative indent footer by it's height */
+
+    margin: 0 auto -60px;
+}
+
+Set the fixed height of the footer here
+#push,
+#footer {
+    height: 200px;
+}
+
+#footer {
+    background-color: #000000;
+}
+
+.footertext {
+    font-family: 'Arial', Gadget, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    color: white;
+    line-height: 26.3999996185303px;
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
